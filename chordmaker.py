@@ -90,7 +90,7 @@ def keycmaj():
 def keyamin():
 	count1 = 1
 	while (count1 < 2):
-		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on vii and ii, enter 'back' to go back): ")
+		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on ii, enter 'back' to go back): ")
 	
 		if rom == 'III':
 			print(cmaj)
@@ -135,7 +135,7 @@ def keygmaj():
 def keyemin():
 	count1 = 1
 	while (count1 < 2):
-		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on vii and ii, enter 'back' to go back): ")	
+		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on ii, enter 'back' to go back): ")	
 		
 		
 		if rom == 'III':
@@ -181,7 +181,7 @@ def keydmaj():
 def keybmin():
 	count1 = 1
 	while (count1 < 2):
-		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on vii and ii, enter 'back' to go back): ")
+		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on ii, enter 'back' to go back): ")
 		
 		if rom == 'III':
 			print(dmaj)
@@ -225,7 +225,7 @@ def keyamaj():
 def keyfsharpmin():
 	count1 = 1
 	while (count1 < 2):
-		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on vii and ii, enter 'back' to go back): ")
+		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on ii, enter 'back' to go back): ")
 		
 		if rom == 'III':
 			print(amaj)
@@ -272,7 +272,7 @@ def keycsharpmin():
 	
 	count1 = 1
 	while (count1 < 2):
-		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on vii and ii, enter 'back' to go back): ")
+		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on ii, enter 'back' to go back): ")
 	
 	
 		if rom == 'III':
@@ -317,7 +317,7 @@ def keybmaj():
 def keygsharpmin():
 	count1 = 1
 	while (count1 < 2):
-		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on vii and ii, enter 'back' to go back): ")
+		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on ii, enter 'back' to go back): ")
 	
 		if rom == 'III':
 			print(bmaj)
@@ -361,7 +361,7 @@ def keyfsharpmaj():
 def keydsharpmin():
 	count1 = 1
 	while (count1 < 2):
-		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on vii and ii, enter 'back' to go back): ")
+		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on ii, enter 'back' to go back): ")
 	
 		if rom == 'III':
 			print(fsharpmaj)
@@ -405,7 +405,7 @@ def keycsharpmaj():
 def keyasharpmin():
 	count1 = 1
 	while (count1 < 2):
-		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on vii and ii, enter 'back' to go back): ")
+		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on ii, enter 'back' to go back): ")
 	
 		if rom == 'III':
 			print(csharpmaj)
@@ -449,7 +449,7 @@ def keyfmaj():
 def keydmin():
 	count1 = 1
 	while (count1 < 2):
-		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on vii and ii, enter 'back' to go back): ")
+		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on ii, enter 'back' to go back): ")
 	
 		if rom == 'III':
 			print(fmaj)
@@ -493,7 +493,7 @@ def keybflatmaj():
 def keygmin():
 	count1 = 1
 	while (count1 < 2):
-		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on vii and ii, enter 'back' to go back): ")
+		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on ii, enter 'back' to go back): ")
 	
 		if rom == 'III':
 			print(bflatmaj)
@@ -537,7 +537,7 @@ def keyeflatmaj():
 def keycmin():
 	count1 = 1
 	while (count1 < 2):
-		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on vii and ii, enter 'back' to go back): ")
+		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on ii, enter 'back' to go back): ")
 	
 		if rom == 'III':
 			print(eflatmaj)
@@ -581,7 +581,7 @@ def keyaflatmaj():
 def keyfmin():
 	count1 = 1
 	while (count1 < 2):
-		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on vii and ii, enter 'back' to go back): ")
+		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on ii, enter 'back' to go back): ")
 	
 		if rom == 'III':
 			print(aflatmaj)
@@ -625,7 +625,7 @@ def keydflatmaj():
 def keybflatmin():
 	count1 = 1
 	while (count1 < 2):
-		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on vii and ii, enter 'back' to go back): ")
+		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on ii, enter 'back' to go back): ")
 	
 		if rom == 'III':
 			print(dflatmaj)
@@ -669,7 +669,7 @@ def keygflatmaj():
 def keyeflatmin():
 	count1 = 1
 	while (count1 < 2):
-		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on vii and ii, enter 'back' to go back ): ")
+		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on ii, enter 'back' to go back ): ")
 	
 		if rom == 'III':
 			print(gflatmaj)
@@ -713,7 +713,7 @@ def keycflatmaj():
 def keyaflatmin():
 	count1 = 1
 	while (count1 < 2):
-		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on vii and ii, enter 'back' to go back): ")
+		rom = input("Enter the roman numeral of the chord you want (Ignore the diminished symbol on ii, enter 'back' to go back): ")
 	
 		if rom == 'III':
 			print(cflatmaj)
